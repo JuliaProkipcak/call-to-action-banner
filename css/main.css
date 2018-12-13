@@ -44,3 +44,51 @@ body {
   width: 60%;
   align-items: center;
 }
+
+.btn-big {
+  margin: .3em;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: .3em .9em;
+  border: 5px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+}
+
+h2 {
+  margin-right: 1.5rem;
+  margin-top: .4rem;
+  margin-bottom: .2rem;
+  font-family: "Roboto Condensed", bold, sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.img-robo {
+  display: block;
+  width: 105%;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+p {
+  margin-right: 1.5rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
