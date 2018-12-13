@@ -6,3 +6,41 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  font-family: "Roboto Condensed", sans-serif;
+  max-height: 500px;
+}
+
+.banner-content {
+  display: flex;
+  position: absolute;
+  margin-top: 0;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 45em;
+  overflow: hidden;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+}
+
+.banner-left {
+  display: inline-block;
+  width: 30%;
+  margin-top: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.banner-right {
+  display: inline-block;
+  padding-right: 2rem;
+  width: 60%;
+  align-items: center;
+}
