@@ -1,0 +1,8 @@
+html {
+  box-sizing: border-box;
+  line-height: 2.45em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
